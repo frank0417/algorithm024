@@ -94,8 +94,9 @@
    PriorityQueue:
    ```
      PriorityQueue是AbstractQueue的子类, 也是Queue的实现类. PriorityQueue能够实现按照元素的优先级进行排序存储. 
-     Priority内部在添加元素和删除元素时都会对队列中的元素进行优先级排序. 如果相应对象实现了comparator方法, 则使用comparator方法对队列中的元素重新排序,
-     否则按照自然顺序排序。 优先队列在扩容时有个特点，当队列size<64时, 会扩容一倍; size>64时, 会扩容50%。
+     Priority内部在添加元素和删除元素时都会对队列中的元素进行优先级排序. 如果相应对象实现了comparator方法, 则使用
+     comparator方法对队列中的元素重新排序,否则按照自然顺序排序。 优先队列在扩容时有个特点，当队列size<64时, 会扩容
+     一倍; size>64时, 会扩容50%。
      插入操作：O(1) 取出操作：O(logN)
      底层实现的数据结构多样：比如，heap、bst、treap
    ```
