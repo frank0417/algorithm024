@@ -9,7 +9,7 @@
 **3.对于堆的学习，本周熟练使用二叉堆，并基于老师的堆的实现，自己重写了一遍，在做题的过程中发现PriorityQueue的使用较频繁，
  虽然它不是最优的堆实现，但是在工程中是最简单的实现，目前最优的是用严格的斐波那契实现。**
  
- **HashMap学习**
+ ***HashMap学习***
  
  ![](https://raw.githubusercontent.com/frank0417/algorithm024/main/Week_02/resource/map.png)
 
