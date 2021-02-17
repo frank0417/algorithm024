@@ -21,7 +21,7 @@ public class Combinations {
             result.add(new ArrayList<Integer>(dq));
             return;
         }
-        for (int i = start; i <= n; ++i) {
+        for (int i = start; i <= n-k+dq.size()+1; ++i) {
             dq.addLast(i);
             dfs(n, k, i + 1, dq, result);
             dq.removeLast();
