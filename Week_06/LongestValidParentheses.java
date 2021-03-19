@@ -3,8 +3,10 @@ package dp;
 public class LongestValidParentheses {
     /*
      * 题 目：最长有效括号
-     * 链 接: https://leetcode-cn.com/problems/longest-valid-parentheses/
-     * 描 述：给你一个只包含 '(' 和 ')' 的字符串，找出最长有效（格式正确且连续）括号子串的长度。
+     * 链 接: https://leetcode-cn.com/problems/number-of-islands/
+     * 描 述：给你一个由 '1'（陆地）和 '0'（水）组成的的二维网格，请你计算网格中岛屿的数量。
+     *        岛屿总是被水包围，并且每座岛屿只能由水平方向和/或竖直方向上相邻的陆地连接形成。
+     *        此外，你可以假设该网格的四条边均被水包围。
      */
     //时间复杂度O(n)空间复杂度O(n)
     public int longestValidParentheses(String s) {
