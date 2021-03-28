@@ -51,5 +51,4 @@ class UnionFind {
         parent[rootP] = rootQ;
         count--;
     }
-
 }
